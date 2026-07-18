@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rajeev Kumar — System Engineer & Cloud Enthusiast</title>
+  <meta name="description" content="Portfolio of Rajeev Kumar — Web Developer & Wintel Admin with 4+ years in banking IT. Windows Support, Cloud & DevOps Enthusiast based in Patna, India.">
+  <meta name="keywords" content="Rajeev Kumar, Web Developer, Windows Support, Wintel Admin, Cloud, DevOps, Azure, Portfolio, Wipro">
+  <meta name="author" content="Rajeev Kumar">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Rajeev Kumar — System Engineer & Cloud Enthusiast">
+  <meta property="og:description" content="Web Developer, Windows Support & Wintel Admin with 4+ years in banking IT environments.">
+  <meta property="og:image" content="profile.jpg">
+  <meta property="og:url" content="https://itsrjpatel.github.io">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+
+  <!-- Particle Canvas Background -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- ==================== NAVBAR ==================== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#hero" class="nav-logo">RK<span>.</span></a>
+
+      <div class="nav-overlay" id="nav-overlay"></div>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#about" class="active">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact" class="nav-cta">Let's Talk</a>
+      </div>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text reveal">
+          <div class="hero-badge">
+            <span class="dot"></span>
+            Available for opportunities
+          </div>
+
+          <p class="hero-greeting">👋 Hey there, I'm</p>
+          <h1 class="hero-name">Rajeev<br><span class="gradient-text">Kumar</span></h1>
+          <p class="hero-role" id="hero-role">
+            <span id="typing-text"></span><span class="typing-cursor"></span>
+          </p>
+          <p class="hero-description">
+            Web Developer, Windows Support & Wintel Admin with 4+ years of experience in banking IT environments at Wipro. Passionate about Cloud, DevOps, and building secure, reliable infrastructure.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#contact" class="btn-primary">
+              <i data-lucide="send" style="width:18px;height:18px;"></i>
+              Get in Touch
+            </a>
+            <a href="resume.pdf" download class="btn-secondary">
+              <i data-lucide="download" style="width:18px;height:18px;"></i>
+              Download Resume
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <div class="stat-number">4+</div>
+              <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="hero-stat">
+              <div class="stat-number">8+</div>
+              <div class="stat-label">Certifications</div>
+            </div>
+            <div class="hero-stat">
+              <div class="stat-number" id="repo-count">4</div>
+              <div class="stat-label">GitHub Repos</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal reveal-delay-2">
+          <div class="hero-avatar-wrapper">
+            <div class="hero-avatar-ring"></div>
+            <div class="hero-avatar">
+              <img src="profile.jpg" alt="Rajeev Kumar" loading="eager">
+            </div>
+
+            <!-- Floating badges -->
+            <div class="floating-badge badge-top-left">
+              ☁️ Azure AZ-900
+            </div>
+            <div class="floating-badge badge-top-right">
+              💻 Web Developer
+            </div>
+            <div class="floating-badge badge-bottom-left">
+              🔒 Cybersecurity
+            </div>
+            <div class="floating-badge badge-bottom-right">
+              🤖 Gen AI
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT SECTION ==================== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">About Me</p>
+        <h2 class="section-title">Turning Infrastructure Into<br>Intelligent Systems</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm a Support Engineer and <strong>SIM Scholar Trainee</strong> at <strong>Wipro Limited</strong>. Currently, I work in a dedicated Desktop Support and application management role for our client, <strong>ICICI Bank</strong>. My expertise spans Web Development, Windows Support, Wintel administration, vulnerability management, and rapid incident resolution.
+          </p>
+          <p>
+            With a strong foundation in system administration and cloud technologies, I'm continuously expanding my skills in <strong>Generative AI</strong>, <strong>Azure Cloud</strong>, and <strong>DevOps automation</strong>. I believe in building secure, resilient infrastructure that powers the digital backbone of enterprises.
+          </p>
+
+          <div class="about-info-grid">
+            <div class="about-info-item">
+              <div class="info-label">Location</div>
+              <div class="info-value">📍 Patna, Bihar</div>
+            </div>
+            <div class="about-info-item">
+              <div class="info-label">Company</div>
+              <div class="info-value">🏢 Wipro Limited</div>
+            </div>
+            <div class="about-info-item">
+              <div class="info-label">Education</div>
+              <div class="info-value">🎓 B.Tech, BITS Pilani</div>
+            </div>
+            <div class="about-info-item">
+              <div class="info-label">Focus</div>
+              <div class="info-value">☁️ Cloud & DevOps</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-cards reveal reveal-delay-2">
+          <div class="about-card">
+            <div class="about-card-icon">🖥️</div>
+            <div>
+              <h4>Production Support</h4>
+              <p>Providing L1/L2 application support for banking environments, ensuring 99.9% uptime and rapid incident resolution.</p>
+            </div>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon">🔐</div>
+            <div>
+              <h4>Security & Compliance</h4>
+              <p>Led vulnerability remediation across 5L+ assessment points. Expertise in patch validation and system hardening.</p>
+            </div>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon">☁️</div>
+            <div>
+              <h4>Cloud & Automation</h4>
+              <p>Azure AZ-900 certified with hands-on experience in cloud infrastructure administration and emerging AI technologies.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SKILLS SECTION ==================== -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Technical Skills</p>
+        <h2 class="section-title">Technologies & Tools<br>I Work With</h2>
+        <p class="section-subtitle">From system administration to cloud platforms — a diverse toolkit built through enterprise-grade experience.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <div class="skill-card-icon">💻</div>
+          <h3>OS & Support</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Windows Support</span>
+            <span class="skill-tag">Windows Server</span>
+            <span class="skill-tag">Wintel Admin</span>
+            <span class="skill-tag">Active Directory</span>
+            <span class="skill-tag">Troubleshooting</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal reveal-delay-1">
+          <div class="skill-card-icon">🗄️</div>
+          <h3>Database & SQL</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">SQL Queries</span>
+            <span class="skill-tag">Data Validation</span>
+            <span class="skill-tag">Backend Analysis</span>
+            <span class="skill-tag">Optimization</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal reveal-delay-2">
+          <div class="skill-card-icon">🛡️</div>
+          <h3>Application Support</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">L1/L2 Support</span>
+            <span class="skill-tag">Incident Mgmt</span>
+            <span class="skill-tag">Problem Mgmt</span>
+            <span class="skill-tag">RCA</span>
+            <span class="skill-tag">SLA</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal reveal-delay-1">
+          <div class="skill-card-icon">🌐</div>
+          <h3>Web Development</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML / CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Responsive Design</span>
+            <span class="skill-tag">Frontend</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal reveal-delay-2">
+          <div class="skill-card-icon">☁️</div>
+          <h3>Cloud & DevOps</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Microsoft Azure</span>
+            <span class="skill-tag">AZ-900</span>
+            <span class="skill-tag">Cloud Infra</span>
+            <span class="skill-tag">Azure OpenAI</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal reveal-delay-3">
+          <div class="skill-card-icon">🔒</div>
+          <h3>Security</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Patch Validation</span>
+            <span class="skill-tag">Vulnerability Mgmt</span>
+            <span class="skill-tag">System Hardening</span>
+            <span class="skill-tag">Active Directory</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== EXPERIENCE SECTION ==================== -->
+  <section class="experience" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Experience</p>
+        <h2 class="section-title">Professional Journey</h2>
+        <p class="section-subtitle">4+ years of enterprise IT experience across critical banking infrastructure projects.</p>
+      </div>
+
+      <div class="timeline">
+        <!-- Job 1 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">
+              <i data-lucide="calendar" style="width:14px;height:14px;"></i>
+              July 2023 – Present
+            </span>
+            <h3 class="timeline-role">Web Developer & Wintel Support Engineer</h3>
+            <p class="timeline-company">Wipro Limited (ICICI Bank Client) – SIM Scholar Trainee</p>
+            <ul class="timeline-tasks">
+              <li>Provide L1/L2 production support for critical banking applications</li>
+              <li>Troubleshoot Windows environments and backend system issues</li>
+              <li>Execute SQL queries for data validation and issue resolution</li>
+              <li>Perform log analysis and root cause identification</li>
+              <li>Manage Active Directory access and support patch validation</li>
+              <li>Ensure SLA compliance with timely incident resolution</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Job 2 -->
+        <div class="timeline-item reveal reveal-delay-2">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">
+              <i data-lucide="calendar" style="width:14px;height:14px;"></i>
+              July 2022 – June 2023
+            </span>
+            <h3 class="timeline-role">Project Coordinator – Application Support</h3>
+            <p class="timeline-company">Wipro Limited (IDFC Bank Project)</p>
+            <ul class="timeline-tasks">
+              <li>Coordinated enterprise patching and vulnerability management</li>
+              <li>Supported Windows-based application environments</li>
+              <li>Performed SQL backend validation and reporting</li>
+              <li>Assisted in closure of 5+ lakh vulnerability assessment points</li>
+              <li>Maintained compliance documentation for audits</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PROJECTS / GITHUB SECTION ==================== -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Projects</p>
+        <h2 class="section-title">GitHub Repositories</h2>
+        <p class="section-subtitle">Open-source projects and learning repositories showcasing my work.</p>
+      </div>
+
+      <div class="projects-grid" id="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card reveal">
+          <div class="project-card-header">
+            <span class="project-icon">🛡️</span>
+            <div class="project-links">
+              <a href="https://github.com/ItsRjpatel/Endpoint-Sentinel_V2" target="_blank" rel="noopener noreferrer" aria-label="GitHub Link">
+                <i data-lucide="github" style="width:20px;height:20px;"></i>
+              </a>
+            </div>
+          </div>
+          <h3>Endpoint-Sentinel V2</h3>
+          <p>Advanced version of the endpoint monitoring system with enhanced security features and improved patch compliance management capabilities.</p>
+          <div class="project-meta">
+            <span class="project-lang">
+              <span class="lang-dot lang-python"></span>
+              Python
+            </span>
+            <span class="project-stat">
+              <i data-lucide="star" style="width:14px;height:14px;"></i> 0
+            </span>
+            <span class="project-stat">
+              <i data-lucide="git-fork" style="width:14px;height:14px;"></i> 0
+            </span>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card reveal reveal-delay-1">
+          <div class="project-card-header">
+            <span class="project-icon">🔍</span>
+            <div class="project-links">
+              <a href="https://github.com/ItsRjpatel/Endpoint-Sentinel" target="_blank" rel="noopener noreferrer" aria-label="GitHub Link">
+                <i data-lucide="github" style="width:20px;height:20px;"></i>
+              </a>
+            </div>
+          </div>
+          <h3>Endpoint-Sentinel</h3>
+          <p>Centralized Endpoint Monitoring and Patch Compliance Management System for enterprise-grade endpoint security tracking and reporting.</p>
+          <div class="project-meta">
+            <span class="project-lang">
+              <span class="lang-dot lang-html"></span>
+              HTML
+            </span>
+            <span class="project-stat">
+              <i data-lucide="star" style="width:14px;height:14px;"></i> 0
+            </span>
+            <span class="project-stat">
+              <i data-lucide="git-fork" style="width:14px;height:14px;"></i> 0
+            </span>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card reveal reveal-delay-2">
+          <div class="project-card-header">
+            <span class="project-icon">☁️</span>
+            <div class="project-links">
+              <a href="https://github.com/ItsRjpatel/Azure-Learning" target="_blank" rel="noopener noreferrer" aria-label="GitHub Link">
+                <i data-lucide="github" style="width:20px;height:20px;"></i>
+              </a>
+            </div>
+          </div>
+          <h3>Azure-Learning</h3>
+          <p>A comprehensive collection of Azure cloud learning resources, notes, and hands-on lab exercises for cloud certification preparation.</p>
+          <div class="project-meta">
+            <span class="project-lang">
+              <span class="lang-dot lang-default"></span>
+              Documentation
+            </span>
+            <span class="project-stat">
+              <i data-lucide="star" style="width:14px;height:14px;"></i> 1
+            </span>
+            <span class="project-stat">
+              <i data-lucide="git-fork" style="width:14px;height:14px;"></i> 0
+            </span>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card reveal reveal-delay-3">
+          <div class="project-card-header">
+            <span class="project-icon">📁</span>
+            <div class="project-links">
+              <a href="https://github.com/ItsRjpatel/Portfolio" target="_blank" rel="noopener noreferrer" aria-label="GitHub Link">
+                <i data-lucide="github" style="width:20px;height:20px;"></i>
+              </a>
+            </div>
+          </div>
+          <h3>Portfolio</h3>
+          <p>GitHub profile configuration files and repository — showcasing my developer identity, contributions, and open-source interests.</p>
+          <div class="project-meta">
+            <span class="project-lang">
+              <span class="lang-dot lang-default"></span>
+              Config
+            </span>
+            <span class="project-stat">
+              <i data-lucide="star" style="width:14px;height:14px;"></i> 1
+            </span>
+            <span class="project-stat">
+              <i data-lucide="git-fork" style="width:14px;height:14px;"></i> 0
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- GitHub Stats Banner -->
+      <div class="github-stats-banner reveal">
+        <div class="github-stat">
+          <div class="stat-value" id="gh-repos">4</div>
+          <div class="stat-label">Public Repos</div>
+        </div>
+        <div class="github-stat">
+          <div class="stat-value" id="gh-followers">0</div>
+          <div class="stat-label">Followers</div>
+        </div>
+        <div class="github-stat">
+          <div class="stat-value" id="gh-following">0</div>
+          <div class="stat-label">Following</div>
+        </div>
+        <div class="github-stat">
+          <div class="stat-value">2023</div>
+          <div class="stat-label">On GitHub Since</div>
+        </div>
+        <a href="https://github.com/ItsRjpatel" target="_blank" rel="noopener noreferrer" class="github-link-btn">
+          <i data-lucide="github" style="width:18px;height:18px;"></i>
+          View GitHub Profile
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== EDUCATION & CERTS ==================== -->
+  <section class="education" id="education">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Education & Certifications</p>
+        <h2 class="section-title">Academic Background &<br>Professional Credentials</h2>
+      </div>
+
+      <div class="education-grid">
+        <!-- Education Column -->
+        <div class="education-column reveal">
+          <h3>🎓 Education</h3>
+
+          <div class="edu-card">
+            <div class="edu-degree">B.Tech – Information Science</div>
+            <div class="edu-school">BITS Pilani (Pursuing)</div>
+            <div class="edu-year">Expected 2026</div>
+          </div>
+
+          <div class="edu-card">
+            <div class="edu-degree">Diploma – Computer Science & Engineering</div>
+            <div class="edu-school">Government Polytechnic Gaya</div>
+            <div class="edu-year">2021</div>
+          </div>
+        </div>
+
+        <!-- Certifications Column -->
+        <div class="education-column reveal reveal-delay-2">
+          <h3>🏆 Certifications</h3>
+
+          <div class="certs-grid">
+            <div class="cert-badge">
+              <span class="cert-icon">☁️</span>
+              Microsoft Azure AZ-900
+            </div>
+            <div class="cert-badge">
+              <span class="cert-icon">🌐</span>
+              Web Development – Certified
+            </div>
+            <div class="cert-badge">
+              <span class="cert-icon">🖥️</span>
+              Windows Server Admin – L1
+            </div>
+            <div class="cert-badge">
+              <span class="cert-icon">🛠️</span>
+              EUC Admin – L2
+            </div>
+            <div class="cert-badge">
+              <span class="cert-icon">☁️</span>
+              Cloud – Microsoft Azure – L1
+            </div>
+            <div class="cert-badge">
+              <span class="cert-icon">🏗️</span>
+              Cloud Infra Admin – L1
+            </div>
+            <div class="cert-badge">
+              <span class="cert-icon">🤖</span>
+              Azure OpenAI – L1
+            </div>
+            <div class="cert-badge">
+              <span class="cert-icon">🧠</span>
+              Google Gen AI – L1 & L2
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT SECTION ==================== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Get in Touch</p>
+        <h2 class="section-title">Let's Build Something<br>Together</h2>
+      </div>
+
+      <div class="contact-grid">
+        <div class="reveal">
+          <p class="contact-info-text">
+            I'm always open to discussing new opportunities, collaborations, or just having a friendly chat about technology, cloud computing, and DevOps. Feel free to reach out!
+          </p>
+
+          <div class="contact-links">
+            <a href="mailto:itsrj2204@gmail.com" class="contact-link-item">
+              <div class="contact-link-icon">📧</div>
+              <div class="contact-link-text">
+                <div class="link-label">Email</div>
+                <div class="link-value">itsrj2204@gmail.com</div>
+              </div>
+            </a>
+
+            <a href="tel:+916299614414" class="contact-link-item">
+              <div class="contact-link-icon">📱</div>
+              <div class="contact-link-text">
+                <div class="link-label">Phone</div>
+                <div class="link-value">+91 6299614414</div>
+              </div>
+            </a>
+
+            <a href="https://github.com/ItsRjpatel" target="_blank" rel="noopener noreferrer" class="contact-link-item">
+              <div class="contact-link-icon">💻</div>
+              <div class="contact-link-text">
+                <div class="link-label">GitHub</div>
+                <div class="link-value">github.com/ItsRjpatel</div>
+              </div>
+            </a>
+
+            <div class="contact-link-item">
+              <div class="contact-link-icon">📍</div>
+              <div class="contact-link-text">
+                <div class="link-label">Location</div>
+                <div class="link-value">Patna, Bihar, India</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal reveal-delay-2">
+          <form class="contact-form" id="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Rajeev Kumar" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="hello@example.com" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Project discussion...">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell me about your project or opportunity..." required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">
+              <i data-lucide="send" style="width:18px;height:18px;"></i>
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-text">
+          © 2026 <span>Rajeev Kumar</span>. Built with ❤️ and lots of ☕
+        </p>
+        <div class="footer-socials">
+          <a href="https://github.com/ItsRjpatel" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="GitHub">
+            <i data-lucide="github" style="width:18px;height:18px;"></i>
+          </a>
+          <a href="mailto:itsrj2204@gmail.com" class="footer-social-link" aria-label="Email">
+            <i data-lucide="mail" style="width:18px;height:18px;"></i>
+          </a>
+          <a href="tel:+916299614414" class="footer-social-link" aria-label="Phone">
+            <i data-lucide="phone" style="width:18px;height:18px;"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <i data-lucide="arrow-up" style="width:20px;height:20px;"></i>
+  </button>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
