@@ -162,10 +162,10 @@ function initTypingAnimation() {
   if (!el) return;
 
   const roles = [
-    'Web Developer',
+    'Windows Server Administrator',
     'Windows Support Specialist',
     'Wintel Administrator',
-    'Cloud & DevOps Enthusiast',
+    'Infrastructure Engineer',
     'Azure Certified Professional'
   ];
 
