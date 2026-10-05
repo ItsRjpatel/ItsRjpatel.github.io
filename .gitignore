@@ -1,0 +1,5 @@
+docx_extracted/
+scratch/
+*.docx
+.DS_Store
+Thumbs.db
